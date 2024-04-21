@@ -9,8 +9,7 @@ use InvalidArgumentException;
 class LetterWRecommendation implements RecommendationAlgorithm
 {
     /**
-     * @param string[] $movies
-     * @return string[]
+     * @inheritDoc
      */
     public function recommend(array $movies): array
     {

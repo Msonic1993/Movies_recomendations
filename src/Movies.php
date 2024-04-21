@@ -6,6 +6,9 @@ namespace App;
 
 class Movies
 {
+    /**
+     * @return string[]
+     */
     public static function getMovies(): array
     {
         return [

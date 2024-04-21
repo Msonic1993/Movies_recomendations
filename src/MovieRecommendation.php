@@ -12,6 +12,9 @@ class MovieRecommendation
     ) {
     }
 
+    /**
+     * @return string[]
+     */
     public function getRecommendations(): array
     {
         $recommendations = [];

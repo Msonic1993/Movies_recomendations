@@ -8,6 +8,9 @@ use InvalidArgumentException;
 
 class MultiWordRecommendation implements RecommendationAlgorithm
 {
+    /**
+     * @inheritDoc
+     */
     public function recommend(array $movies): array
     {
         if (empty($movies)) {

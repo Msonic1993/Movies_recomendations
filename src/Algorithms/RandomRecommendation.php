@@ -8,6 +8,10 @@ use InvalidArgumentException;
 
 class RandomRecommendation implements RecommendationAlgorithm
 {
+
+    /**
+     * @inheritDoc
+     */
     public function recommend(array $movies): array
     {
         if (empty($movies)) {
